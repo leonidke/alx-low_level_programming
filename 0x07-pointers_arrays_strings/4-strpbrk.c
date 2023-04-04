@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -18,5 +17,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s);
 		}
 	}
-	return (NULL);
+	return ('\0');
 }
