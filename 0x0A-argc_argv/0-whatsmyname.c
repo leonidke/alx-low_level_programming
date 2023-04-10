@@ -11,6 +11,6 @@
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s is the name of the program\n", argv[0]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
